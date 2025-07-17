@@ -1,0 +1,13 @@
+{
+  "debug_mode": true,
+  "window_size": {
+    "debug": {
+      "width": 270,
+      "height": 520
+    },
+    "release": {
+      "width": 1080,
+      "height": 2080
+    }
+  }
+}

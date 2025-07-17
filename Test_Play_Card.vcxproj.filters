@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\models">
+      <UniqueIdentifier>{d85480eb-edce-41ac-adc6-d7267601c503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services">
+      <UniqueIdentifier>{7c3d4641-8e86-4e4a-926b-90b83bb86236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{2fcd534c-b105-40a8-936c-76e1c95f3bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views">
+      <UniqueIdentifier>{edaea09b-2f02-4e6f-8357-a21b763c26ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\configs">
+      <UniqueIdentifier>{dc571b23-a0ee-4e0c-b0db-62089c7194b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\controllers">
+      <UniqueIdentifier>{c3e69d67-993c-4e92-ac9f-057381be4990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\number">
+      <UniqueIdentifier>{38e63bb7-c8e5-4cb0-a2b1-c903467df70c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\suits">
+      <UniqueIdentifier>{3dc7f665-ca54-4f05-b6c2-153c9b34ed95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\managers">
+      <UniqueIdentifier>{9b515a19-eedc-44ed-9150-a0b1fca82da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\fonts">
+      <UniqueIdentifier>{2a44808f-b44f-44ad-a26c-0b629daf135f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\GameModel.cpp">
+      <Filter>src\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\UndoModel.cpp">
+      <Filter>src\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controllers\GameController.cpp">
+      <Filter>src\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\views\CardView.cpp">
+      <Filter>src\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\services\UndoService.cpp">
+      <Filter>src\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\configs\LevelConfigLoader.cpp">
+      <Filter>src\configs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\managers\UndoManager.cpp">
+      <Filter>src\managers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\CardModel.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\GameModel.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\UndoModel.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\configs\LevelConfig.h">
+      <Filter>src\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controllers\GameController.h">
+      <Filter>src\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\views\CardView.h">
+      <Filter>src\views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\services\UndoService.h">
+      <Filter>src\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\configs\CardResConfig.h">
+      <Filter>src\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\configs\LevelConfigLoader.h">
+      <Filter>src\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controllers\CardController.h">
+      <Filter>src\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\managers\UndoManager.h">
+      <Filter>src\managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\res\card_general.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\res\suits\club.png">
+      <Filter>resource\suits</Filter>
+    </Image>
+    <Image Include="..\Resources\res\suits\diamond.png">
+      <Filter>resource\suits</Filter>
+    </Image>
+    <Image Include="..\Resources\res\suits\heart.png">
+      <Filter>resource\suits</Filter>
+    </Image>
+    <Image Include="..\Resources\res\suits\spade.png">
+      <Filter>resource\suits</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_black_2.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_black_3.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_black_4.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_black_5.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_black_6.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_black_7.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_black_8.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_black_9.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_black_10.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_black_A.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_black_J.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_black_K.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_black_Q.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_red_2.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_red_3.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_red_4.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_red_5.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_red_6.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_red_7.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_red_8.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_red_9.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_red_10.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_red_A.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_red_J.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_red_K.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\big_red_Q.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_black_2.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_black_3.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_black_4.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_black_5.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_black_6.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_black_7.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_black_8.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_black_9.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_black_10.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_black_A.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_black_J.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_black_K.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_black_Q.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_red_2.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_red_3.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_red_4.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_red_5.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_red_6.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_red_7.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_red_8.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_red_9.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_red_10.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_red_A.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_red_J.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_red_K.png">
+      <Filter>resource\number</Filter>
+    </Image>
+    <Image Include="..\Resources\res\number\small_red_Q.png">
+      <Filter>resource\number</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\res\level_01.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\res\config.json">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\fonts\Marker Felt.ttf">
+      <Filter>resource\fonts</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
